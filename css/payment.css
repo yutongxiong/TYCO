@@ -163,12 +163,12 @@ li:hover {
   display: inline-block;
 }
 .container {
-	padding-right: 15px;
+  padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
-}
+
 .title_name {
   display: block;
 }
@@ -229,5 +229,5 @@ li:hover {
     min-width: 180px;
 }
 .customwidth{
-	max-width: 480px
+  max-width: 480px
 }

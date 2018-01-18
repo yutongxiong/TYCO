@@ -62,7 +62,10 @@ nav ul {
     text-align: left;
     display: block;
 }
-.btn_book {
+
+/*since I added an extra class for you, I am using the same still as before, make any changes as you wish*/
+.btn_book,
+.btn_more_info {
   width: 200px;
   height: 60px;
   padding: 10px;

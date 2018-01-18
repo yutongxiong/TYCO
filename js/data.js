@@ -1,3 +1,9 @@
+// I put rooms here because, I see you are copying this into two js files.
+// remember, the page load from top to bottom.
+// as long as this file is before the other js
+// the other js can access variable in this file
+// this is the reason why when we use jquery, we need to include jquery.js link before our script
+// also, becare ful, because of this naming is very important so you don't overwrite this variable by accident in your scripts, unless you intend to
 var rooms = [
     {
         name: "GALAXY FANTASY",
