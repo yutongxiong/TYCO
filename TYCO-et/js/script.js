@@ -4,7 +4,7 @@
 // console.log(rooms);
 var x = '';
 for (var i = 0; i <= rooms.length -1 ; i++) {
-	x += '<ul class="room_list">';
+	x += '<ul class="room_list" id="' + rooms[i].id + '">';
 	x += '<li class="crop">';
 	x += '<img src="'+ rooms[i].image +'">';
 	x += '<h1>' + rooms[i].name + '</h1>';
