@@ -25,7 +25,13 @@ $('.close').on('click', function(e){
 
 $('.btn_book').on('click', function(e){
     e.preventDefault();
-    
-    $(this).find('.display_box').show();  
+    // get the room id
+    var roomId = $(this).closest('.room_list').attr('id');
+    // set cookie, this is the js way to set a cookie
+    // need extra library to use jquery's cookie
+    // too lazy to implement it :D
+    document.cookie = 'room-id=' + roomId;
+
+    // redirect to booking.html
+    window.location.href = 'booking.html';
 });
-console.log($(this).find('.display_box'));

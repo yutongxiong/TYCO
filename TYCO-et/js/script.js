@@ -55,7 +55,7 @@ for (var n = 0; n <= rooms.length -1 ; n++) {
 	y += '</div>';
 
 };
-console.log(y);
+// console.log(y);
 $('.display_box').append(y);
 
 
