@@ -23,6 +23,9 @@ $('.close').on('click', function(e){
     $(this).closest('.modal').hide();
 });
 
+// when button is clicked, get the room id from html
+// set browser cookie, browser cookie is kind of saving variable into the browser
+// redirect page to booking.html
 $('.btn_book').on('click', function(e){
     e.preventDefault();
     // get the room id

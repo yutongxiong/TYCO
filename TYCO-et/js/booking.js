@@ -1,3 +1,12 @@
+/*
+* process of the js
+* since we already set a cookie named room-id in popup.js from room.html
+* when we load booking.html, we will get the cookie from browser
+* if room id is found, loop through the rooms data to find the matching room id then append it
+* else, change the title name
+* remove the cookie from browser
+* */
+
 // this function is not made by me, it's from
 // https://www.w3schools.com/js/js_cookies.asp
 function getCookie(cname) {
