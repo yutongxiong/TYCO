@@ -1,0 +1,189 @@
+/* Padding - just for asthetics on Bootsnipp.com */
+body { margin-top:20px; }
+* {margin: 0; padding: 0;}
+
+a { 
+  color: #fff;
+  text-decoration: none; 
+}
+nav{
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: -10px;
+  position: relative;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: grey;
+
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+nav ul a li {
+  transition: color .3s ease;
+}
+nav ul a li:hover {
+  color: #fff; 
+  background-color: #ff7784;
+  width: 200px;
+  height: auto;
+}
+
+nav ul {
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+.room_header{
+  text-align: center;
+  margin-top: 90px;
+}
+.room_header h1{
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #00aac3;
+}
+.room_container{
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.room_list {
+
+    list-style-type: none;
+    width: 100%;
+    text-align: left;
+    display: block;
+}
+.btn_book {
+  width: 200px;
+  height: 60px;
+  padding: 10px;
+  margin-top: 30px;
+  float: right;
+  margin-right: 30px;
+  background-color: #ff7784;
+  color: #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.center {
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 35%;
+  cursor: pointer;
+}
+.room_detail {
+  display: block;
+  width: 100%;
+}
+.room_detail img {
+  width: 100%;
+}
+.room_detail ul {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.room_detail p {
+  display: block;
+  font: bold 30px/1.5 Helvetica, Verdana, sans-serif;
+  vertical-align: middle;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+h3 {
+  font: bold 20px/2.0 Helvetica, Verdana, sans-serif;
+  margin-top: -13px;
+}
+
+li img {
+  float: left;
+  margin-right: 40px;
+}
+
+li h1 {
+  font: 800 14px/1.5 Helvetica, Verdana, sans-serif;
+  color: grey;
+}
+li p {
+  font: 300 11px/1.5 Georgia, Times New Roman, serif;
+}
+
+li {
+  padding: 20px;
+  overflow: auto;
+}
+
+li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+.crop {
+ overflow: hidden;
+}
+.crop img {
+   width:280px;
+   height:220px;
+   object-fit:cover;
+
+}
+.room_name {
+  font: 300 14px/1.5 Helvetica, Verdana, sans-serif;
+  color: white;
+  background-color: #ff7784;
+}
+
+.back_btn {
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #bbbbbb;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -20px;
+  cursor: pointer;
+}
+.arrow {
+  opacity: 0.6;
+  margin-top: 20px;
+  display: inline-block;
+}
+.container {
+  padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title_name {
+  display: block;
+}
+.title_name h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+  background-color: #00aac3;
+  padding: 15px;
+
+}
+.container1{
+  display: block;
+  margin-top: 50px;
+}
+
+
